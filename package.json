@@ -1,0 +1,18 @@
+{
+  "name": "miriam17",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "servor": "npx servor dist index.html 8080 --browse --reload"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4"
+  },
+  "dependencies": {
+    "@ui5/webcomponents": "^1.0.0-rc.15",
+    "haunted": "^4.8.2"
+  }
+}
