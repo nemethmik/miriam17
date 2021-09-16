@@ -4,7 +4,7 @@ import { html, component, useState } from 'haunted';
 const app = document.querySelector<HTMLDivElement>('#app')!
 
 app.innerHTML = `
-  <h1>Hello Vite!</h1>
+  <h1>Hello Vite Web Components with Haunted Hooks!</h1>
   <p>
   <my-counter></my-counter>
   </p>
