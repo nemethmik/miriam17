@@ -2,6 +2,8 @@
 
 ViteJS, lit-html, haunted, optionally with SAP UI5 or Vaadin or any other (Shoelace) web components experimental project (Sylla)
 
+Check out the live application on [Azure](https://brave-grass-0944e8203.azurestaticapps.net/)
+
 feat(initial): Implement Haunted Counter web component sample
 
 The accompanying video explains the story:
