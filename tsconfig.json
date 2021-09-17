@@ -6,13 +6,19 @@
     "lib": ["ESNext", "DOM"],
     "moduleResolution": "Node",
     "strict": true,
-    "sourceMap": true,
+    //"sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "experimentalDecorators": true, 
+    "inlineSourceMap": true, 
+    "noImplicitAny": true,    
+    "strictNullChecks": true,  
+    "strictFunctionTypes": true, 
+    "noImplicitThis": true, 
   },
   "include": ["./src"]
 }

@@ -5,9 +5,13 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "servor": "npx servor dist index.html 8080 --browse --reload"
+    "servor": "npx servor dist index.html 8080 --browse --reload",
+    "fix": "eslint src --fix"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint": "^7.32.0",
     "typescript": "^4.3.2",
     "vite": "^2.5.4"
   },
