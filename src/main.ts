@@ -26,7 +26,7 @@ function App({startpage = "CounterDemo"}:IAppProps): TemplateResult {
       derived from Lit Element.
       For example if .startProp=${"STRING18"} lit-htmls works with it happily, too.
       -->
-      ${page == "CounterDemo" ? html`<my-counter start-attr=9 .startProp=${"18"}></my-counter>` : ""}
+      ${page == "CounterDemo" ? html`<my-counter start-attr=9 .startProp=${18}></my-counter>` : ""}
       ${page == "UI5Demo" ? html`<my-ui5demo></my-ui5demo>` : ""}
     </p>
     <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
